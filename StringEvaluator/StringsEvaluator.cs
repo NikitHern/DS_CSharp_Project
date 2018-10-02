@@ -9,9 +9,9 @@ namespace StringEvaluator
     {
         public IDictionary<string, double> Parameters { get; }
 
-        public StringsEvaluator()
+        public StringsEvaluator(IDictionary<string, double> parameters)
         {
-            Parameters = new Dictionary<string, double>();
+            Parameters = parameters;
         }
 
         public void EvaluateString(string stringExpression)

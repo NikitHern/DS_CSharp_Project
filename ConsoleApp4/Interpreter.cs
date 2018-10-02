@@ -8,11 +8,11 @@ namespace ConsoleApp4 {
         private readonly IStringWriter writer;
         private readonly IStringReader reader;
         private readonly StringsEvaluator evaluator; 
-        public Interpreter(IStringReader reader, IStringWriter writer)
+        public Interpreter(IStringReader reader, IStringWriter writer, StringsEvaluator evaluator)
         {
             this.reader = reader;
             this.writer = writer;
-            evaluator = new StringsEvaluator();
+            this.evaluator = evaluator;
         }
         public void StartProcessing(string exitString)
         {
