@@ -7,11 +7,11 @@ namespace StringEvaluator
 {
     public class StringsEvaluator
     {
-        public IDictionary<string, double> Parameters { get; private set; }
+        public IDictionary<string, double> Parameters { get; }
 
         public StringsEvaluator()
         {
-            this.Parameters = new Dictionary<string, double>();
+            Parameters = new Dictionary<string, double>();
         }
 
         public void EvaluateString(string stringExpression)

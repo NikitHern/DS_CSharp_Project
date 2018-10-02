@@ -1,9 +1,8 @@
-﻿using System;
-using StringEvaluator;
+﻿using StringEvaluator;
 using StringLiterator.Read;
 using StringLiterator.Write;
 
-namespace ConsoleApp4.WorkModeStrategies {
+namespace ConsoleApp4 {
     public class Interpreter
     {
         private readonly IStringWriter writer;

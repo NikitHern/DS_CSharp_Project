@@ -1,5 +1,4 @@
 ﻿using System;
-using ConsoleApp4.WorkModeStrategies;
 using StringLiterator.Read.Implementations;
 using StringLiterator.Write.Implementations;
 
